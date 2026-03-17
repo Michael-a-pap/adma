@@ -1,0 +1,16 @@
+/dts-v1/;
+/plugin/;
+
+///include/ "system-conf.dtsi"
+
+/ {
+    fragment@0 {
+        target-path = "/";
+        __overlay__ {
+            adma@0 {
+                compatible = "map,fpga_dma";
+            };
+        };
+    };
+};
+

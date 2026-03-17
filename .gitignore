@@ -9,6 +9,6 @@ modules.order
 *symvers*
 build/
 original_petalinux_made/
-
+*.dtbo
 
 
